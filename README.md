@@ -33,10 +33,10 @@ Use the .env.example file as a reference. (Not publishing the used APIs for secu
 7. Install the frontend dependencies:
     npm install
 
-8. Individual dependence if needed (backend)
+8. Individual dependence if needed (backend):
     npm install express axios dotenv
 
-9. Individual dependence if needed (frontend)
+9. Individual dependence if needed (frontend):
     npm install axios chart.js react-chartjs-2
 
 
@@ -49,13 +49,13 @@ The application loads environment variables using the `dotenv` package in the `m
 ## Running the application
 
 1. At the backend root folder, start the backend:
-  cd country-info-backend 
+  cd country-info-backend - 
   npm start
 
 2. In a new terminal, start the frontend at the frontend root folder:
-  cd country-info-frontend
+  cd country-info-frontend - 
   npm start
 
 3. Access the application in your browser:
-  http://localhost:3001
+  http://localhost:3001 - 
   (http://localhost:3000 should be running the backend)
